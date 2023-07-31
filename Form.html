@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input{
+            width: 100%;
+            padding: 10px 10px;
+            margin: 8px;
+            box-sizing: border-box;
+            background-color:rgb(230, 135, 20);
+            color: white;
+            text-align: center;
+            border-radius: 2px;
+        }
+        h1{
+            color: red;
+        }
+        body{
+            background-color: cornsilk;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text"> 
+
+        <label for="lname">Last Name</label>
+        <input type="text">
+
+        <label for="email">Email</label>
+        <input type="text">
+
+        <label for="dob">Date of Birth</label>
+        <input type="date">
+
+        <label for="male">Male</label>
+        <input type="radio">
+
+        <label for="female">Female</label>
+        <input type="radio">
+
+        <label for="others">Others</label>
+        <input type="radio">
+        <label for="course">Courses Taken</label>
+        <select name="Courses Taken" id="course">
+            <option value="fullstack">Fullstack</option>
+            <option value="js">Javascript</option>
+            <option value="python">Python</option>
+            <option value="reactjs">ReactJs</option>
+            <option value="html">HTML</option>
+
+        </select>
+
+        <label for="pass">Password</label>
+        <input type="password">
+
+        <label for="reg">Register</label>
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
